@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic metadata and responsive setup -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+
+  <!-- Link to external CSS for styling -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Main container using flexbox for layout -->
+  <div class="top-container">
+
+    <!-- Left column: dynamically filled with weather info cards -->
+    <div class="column left" id="leftCards"></div>
+
+    <!-- Center column: title, icon, input, and controls -->
+    <div class="title-center">
+      <h1>Get the Weather</h1>
+
+      <!-- Weather image shown based on current condition -->
+      <div id="weatherIcon"></div>
+
+      <!-- City search and options -->
+      <div class="city-entry">
+
+        <!-- Autocomplete input and suggestion box -->
+        <div class="autocomplete-container">
+          <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name"
+            autocomplete="off"
+          />
+          <!-- Suggestions will be inserted here by JavaScript -->
+          <div id="autocomplete-list" class="autocomplete-items"></div>
+        </div>
+
+        <!-- Button to get weather using user's geolocation -->
+        <button onclick="getWeatherByLocation()">Use My Location</button>
+
+        <!-- Area to show city name and current condition text -->
+        <div id="weatherResult"></div>
+
+        <!-- Toggle to switch between Fahrenheit and Celsius -->
+        <label>
+          <input
+            type="checkbox"
+            id="unitToggle"
+            checked
+            onchange="updateWeatherWithLastLocation()"
+          />
+          Show in Fahrenheit
+        </label>
+      </div>
+    </div>
+
+    <!-- Right column: dynamically filled with weather info cards -->
+    <div class="column right" id="rightCards"></div>
+  </div>
+
+  <!-- Link to JavaScript for functionality -->
+  <script src="script.js"></script>
+</body>
+</html>

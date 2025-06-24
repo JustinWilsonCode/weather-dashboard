@@ -1,0 +1,107 @@
+/* === Base Styles === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #01090e;
+  color: white;
+}
+
+/* === Layout === */
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.title-center {
+  text-align: center;
+  flex: 2;
+}
+
+/* === Weather Icon === */
+#weatherIcon img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* === Weather Result Text === */
+#weatherResult {
+  font-size: 1.2rem;
+}
+
+/* === Card Styles === */
+.card {
+  background-color: #011931;
+  color: greenyellow;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  min-width: 170px;
+  text-align: center;
+}
+
+.card-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* === City Input + Autocomplete === */
+.city-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-top: 20px;
+}
+
+.city-entry button {
+  margin-top: 20px;
+}
+
+.autocomplete-container {
+  position: relative;
+  width: 300px;
+}
+
+#cityInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.autocomplete-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.autocomplete-item {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.autocomplete-item:hover {
+  background-color: #f0f0f0;
+}
+
