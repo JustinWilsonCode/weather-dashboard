@@ -2,7 +2,7 @@
 
 A responsive web app that displays current weather information based on city input or geolocation. Includes support for temperature unit switching and real-time US city autocomplete.
 
-![screenshot](images/screenshot.png) <!-- Optional: replace or delete if you don't have a screenshot yet -->
+![screenshot](images/screenshot.png) 
 
 ---
 
@@ -47,8 +47,8 @@ A responsive web app that displays current weather information based on city inp
  }
  
  3. Get your keys from:
- - OpenWeatherMap
- - RapidAPI GeoDB
+       - OpenWeatherMap
+       - RapidAPI GeoDB
  
  4. Open index.html in a browser, or view it live at the link above.
    
