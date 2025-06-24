@@ -2,7 +2,7 @@
 
 A responsive web app that displays current weather information based on city input or geolocation. Includes support for temperature unit switching and real-time US city autocomplete.
 
-![screenshot](images/screenshot.png) 
+![screenshot](images/Screenshot.png) 
 
 ---
 
