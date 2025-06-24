@@ -51,6 +51,8 @@ headers: {
 - RapidAPI GeoDB
 
 4. Open index.html in a browser, or view it live at the link above.
+   
+---
 
 ## Folder Structure
 
@@ -64,6 +66,8 @@ weather-dashboard/
 │ ├── rain.jpg
 │ ├── ...
 └─  ─ README.md
+
+---
 
 ## Credits
 
