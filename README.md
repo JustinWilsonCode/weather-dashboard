@@ -6,7 +6,7 @@ A responsive web app that displays current weather information based on city inp
 
 ---
 
-## 🔧 Features
+##  Features
 
 -  Get weather by city name or by your current location
 -  Autocomplete for US cities with debounced search
@@ -22,7 +22,7 @@ A responsive web app that displays current weather information based on city inp
 
 ---
 
-## Tech Stack
+##  Tech Stack
 
 - HTML, CSS, JavaScript
 - [OpenWeatherMap API](https://openweathermap.org/api) – for weather data
@@ -32,25 +32,25 @@ A responsive web app that displays current weather information based on city inp
 
 ##  Setup Instructions
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/JustinWilsonCode/weather-dashboard.git
-
-
-2. Replace the placeholder API keys in script.js:
-
-const apiKey = "YOUR_OPENWEATHERMAP_API_KEY";
-
-headers: {
-  'X-RapidAPI-Key': 'YOUR_RAPIDAPI_KEY',
-  'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
-}
-
-3. Get your keys from:
-- OpenWeatherMap
-- RapidAPI GeoDB
-
-4. Open index.html in a browser, or view it live at the link above.
+ 1. Clone this repo:
+    ```bash
+    git clone https://github.com/JustinWilsonCode/weather-dashboard.git
+ 
+ 
+ 2. Replace the placeholder API keys in script.js:
+ 
+ const apiKey = "YOUR_OPENWEATHERMAP_API_KEY";
+ 
+ headers: {
+   'X-RapidAPI-Key': 'YOUR_RAPIDAPI_KEY',
+   'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
+ }
+ 
+ 3. Get your keys from:
+ - OpenWeatherMap
+ - RapidAPI GeoDB
+ 
+ 4. Open index.html in a browser, or view it live at the link above.
    
 ---
 
