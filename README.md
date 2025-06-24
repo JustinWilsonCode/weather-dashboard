@@ -39,11 +39,11 @@ A responsive web app that displays current weather information based on city inp
  
  2. Replace the placeholder API keys in script.js:
  
- const apiKey = "YOUR_OPENWEATHERMAP_API_KEY";
+    const apiKey = "YOUR_OPENWEATHERMAP_API_KEY";
  
- headers: {
-   'X-RapidAPI-Key': 'YOUR_RAPIDAPI_KEY',
-   'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
+    headers: {
+      'X-RapidAPI-Key': 'YOUR_RAPIDAPI_KEY',
+      'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
  }
  
  3. Get your keys from:
